@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="../public/css/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-md ">
+                <div class="container">
+
+                    <h2 style = "color: #fff;">Operaciones con fraccionarios</h2>
+
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon">
+                            <i class="fi-xnsuxl-three-bars-solid" style="color:#fff; font-size:28px;"></i>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="../index.jsp">Inicio
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="formularioSumaFraccionario.html">Suma</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="formularioRestaFraccionario.html">Resta</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="formularioMultFraccionario.html">Multiplicación</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="formularioDivFraccionario.html">División</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            <form action="../jsp/restaFraccionarios.jsp" method="POST">
+                <div class="form-group">
+                    <h2>Fracción Nro 1</h2>
+                    <label for="exampleInputEmail1">Numerador</label>
+                    <input type="number" name="numerador1" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Numerador" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Denominador</label>
+                    <input type="number" name="denominador1" class="form-control" id="exampleInputPassword1" placeholder="Denominador" required>
+                </div>
+                <hr>
+                <div class="form-group">
+                    <h2>Fracción Nro 2</h2>
+                    <label for="exampleInputEmail1">Numerador</label>
+                    <input type="number" name="numerador2" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Numerador" required>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Denominador</label>
+                    <input type="number" name="denominador2" class="form-control" id="exampleInputPassword1" placeholder="Denominador" required>
+                </div>
+                <button type="submit" class="btn btn-success">Restar</button>
+            </form>
+        </div>
+
+        <footer>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+            <script defer src="https://friconix.com/cdn/friconix.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        </footer>
+    </body>
+</html>
